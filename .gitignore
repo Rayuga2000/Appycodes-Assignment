@@ -1,1 +1,31 @@
-node_modules
+# Ignore node_modules
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Ignore build files
+dist/
+build/
+
+# Ignore environment variables
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore logs
+logs/
+*.log
+yarn-debug.log
+yarn-error.log
+lerna-debug.log
+
+# Ignore dependency cache
+.pnpm-store/
+
