@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.circleContainer {
+  @apply flex justify-center items-center h-[50vh];
+  div {
+    @apply w-fit p-4 bg-white rounded-[50%];
+  }
+}
+
+.marqueeDiv {
+  @apply flex justify-around gap-4 text-5xl font-bold;
+}

@@ -8,11 +8,11 @@ const LeftTypo = () => {
   const isInView = useInView(h2Ref, { once: false });
 
   return (
-    <div className="sticky top-0 text-white flex flex-col justify-around">
-      <h2 ref={h2Ref} className="text-7xl/15 font-bold leading-20">
+    <div className="leftTypo">
+      <h2 ref={h2Ref} className="">
         {heading.map((line, i) => {
           return (
-            <div className="overflow-hidden">
+            <div className="">
               <motion.div
                 initial={{ y: 100 }}
                 animate={isInView ? { y: 0 } : {}}
@@ -25,12 +25,12 @@ const LeftTypo = () => {
           );
         })}
       </h2>
-      <p className="w-2xs font-bold">
+      <p className="">
         By re-engineering plastics, releaf® is reducing the environmental
         footprint and creating superior products. Now is the time to make it
         right.
       </p>
-      <div className="Applications">
+      <div className="">
         <button></button>
         <button>Applications</button>
         <button></button>
