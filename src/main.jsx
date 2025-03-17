@@ -7,8 +7,8 @@ import { TextFillerV2 } from "./components/index.js";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    {/* <App /> */}
-    <div className="textFillerSection_Wrapper">
+    <App />
+    {/* <div className="textFillerSection_Wrapper">
       <TextFillerV2
         text="Releaf® is a plant-based,"
         animStart="70%"
@@ -20,6 +20,6 @@ createRoot(document.getElementById("root")).render(
         animStart="75%"
         animEnd="10%"
       />
-    </div>
+    </div> */}
   </StrictMode>
 );

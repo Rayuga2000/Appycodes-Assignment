@@ -34,7 +34,8 @@
   p {
     @apply w-2xs font-bold;
   }
-  div {
+  div:last-of-type {
+    @apply flex gap-1;
     button {
       @apply p-3 bg-white rounded-2xl text-black font-bold;
     }
