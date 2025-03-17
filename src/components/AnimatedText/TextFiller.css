@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.textFillerSection {
+  h2 {
+    @apply flex justify-around gap-4 font-black text-5xl/15;
+  }
+  .wordContainer {
+    @apply relative border-none;
+    span:first-of-type {
+      @apply absolute text-black/20 border-none;
+    }
+  }
+}

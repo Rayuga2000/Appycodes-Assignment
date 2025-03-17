@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Marquee = ({ xAxisRange }) => {
   return (
     <motion.div
-      className="flex justify-around gap-4 text-5xl font-bold"
+      className="marqueeDiv"
       initial={{ x: "0" }}
       animate={{ x: xAxisRange }}
       transition={{
